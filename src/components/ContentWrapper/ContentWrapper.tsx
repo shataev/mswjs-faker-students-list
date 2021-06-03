@@ -7,8 +7,7 @@ export const ContentWrapper:FC = ()=>{
         <main className={styles.contentWrapper}>
             <h1 className={styles.contentHeader}>Our students</h1>
             <div className={styles.contentSubHeader}>(generated with
-                <a href="https://mswjs.io/">Mock Service Worker</a> and
-                <a href="https://www.npmjs.com/package/faker">Faker.js</a>
+                <a href="https://mswjs.io/"> Mock Service Worker </a> and <a href="https://www.npmjs.com/package/faker"> Faker.js</a>
                 )
             </div>
 
