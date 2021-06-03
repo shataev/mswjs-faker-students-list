@@ -1,0 +1,40 @@
+.studentCard {
+  display: flex;
+  padding: 25px;
+  background-color: #ffffff;
+}
+
+.info {
+  margin-left: 25px;
+}
+
+.name {
+  color: #ff9069;
+  text-transform: uppercase;
+}
+
+.age {
+  color: #999ca4;
+}
+
+.avatarContainer {
+  flex: 0 0 128px;
+  height: 128px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.infoItem {
+  display: flex;
+}
+
+.infoLabel {
+  font-size: 14px;
+  color: #999ca4;
+  margin-right: 10px;
+}
+
+.infoValue {
+  color: #757985;
+}
+
