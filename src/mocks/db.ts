@@ -1,7 +1,7 @@
-import { factory } from '@mswjs/data';
+import {factory} from '@mswjs/data';
 
-import {StudentModel as student} from './models'
+import {StudentModel} from './models';
 
 export const db = factory({
-    student
-})
+  student: StudentModel,
+});

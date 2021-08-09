@@ -1,5 +1,5 @@
-import { GET_STUDENTS, SET_STUDENTS } from './Students.constants';
-import { IStudent } from '../../components/StudentCard/StudentCard.types';
+import {GET_STUDENTS, SET_STUDENTS} from './Students.constants';
+import {IStudent} from '../../components/StudentCard/StudentCard.types';
 
 export interface IGetStudentsAction {
     type: typeof GET_STUDENTS

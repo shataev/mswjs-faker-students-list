@@ -1,2 +1,2 @@
-export * from './StudentsList'
-export * from './StudentsList.module.scss'
+export * from './StudentsList';
+export * from './StudentsList.module.scss';

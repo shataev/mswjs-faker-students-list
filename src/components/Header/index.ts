@@ -1,2 +1,2 @@
-export * from './Header'
-export * from './Header.module.scss'
+export * from './Header';
+export * from './Header.module.scss';

@@ -1,10 +1,13 @@
-import { all, AllEffect } from 'redux-saga/effects';
+import {all, AllEffect} from 'redux-saga/effects';
 import {
-    sagaStudentsModule
+  sagaStudentsModule,
 } from '../modules/Students';
 
-export default function* rootSaga (): Generator<AllEffect<any>> {
-    yield all([
-        ...sagaStudentsModule,
-    ]);
+/**
+ *
+ */
+export default function* rootSaga(): Generator<AllEffect<any>> {
+  yield all([
+    ...sagaStudentsModule,
+  ]);
 }

@@ -1,23 +1,23 @@
-import React, { useEffect } from 'react';
+import React, {useEffect} from 'react';
 
-import styles from'./App.module.scss';
+import styles from './App.module.scss';
 import 'sanitize.css';
-import { ContentWrapper } from './components/ContentWrapper';
-import { useDispatch } from 'react-redux';
-import { getStudentsAction } from './modules/Students';
+import {ContentWrapper} from './components/ContentWrapper';
+import {useDispatch} from 'react-redux';
+import {getStudentsAction} from './modules/Students';
 
 function App() {
-    const dispatch = useDispatch();
+  const dispatch = useDispatch();
 
-    useEffect( ()=>{
-        dispatch(getStudentsAction());
-    });
+  useEffect(() => {
+    dispatch(getStudentsAction());
+  });
 
-    return (
+  return (
     <div className={styles.App}>
-        <ContentWrapper/>
+      <ContentWrapper />
     </div>
-);
+  );
 }
 
 export default App;
